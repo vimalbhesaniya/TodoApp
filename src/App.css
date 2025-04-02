@@ -1,0 +1,77 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.childContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.todoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.listTodos{
+  width: 100%;
+}
+
+table , tr {
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 5px;
+    width: 100%;
+}
+
+td{
+  padding: 10px 0;
+  border-bottom:  1px solid gainsboro;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  background: gainsboro;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background: gray;
+  border : none;
+  outline: none;
+  height: 40px;
+  color: aliceblue;
+  padding: 5px 20px;
+}
+
+.todoAction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.noTodoFound{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+thead{
+  background: cadetblue;
+  height: 50px;
+}
